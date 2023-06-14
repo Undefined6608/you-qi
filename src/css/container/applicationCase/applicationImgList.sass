@@ -1,0 +1,28 @@
+.applicationImgList
+  width: calc(419px + 606px + 10px)
+  height: calc( 231px * 2 + 20px )
+  margin: 0 auto
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+
+  .imgLT,.imgRT,.imgLB,.imgRB
+    height: 231px
+    overflow: hidden
+    img
+      width: 100%
+      height: 100%
+      transition: transform .5s
+
+    img:hover
+      transform: scale(1.1)
+
+  .imgLT,.imgRB
+    width: 419px
+
+  .imgRT,.imgLB
+    width: 606px
+
+  .imgRT,.imgRB
+    margin-left: 10px
+

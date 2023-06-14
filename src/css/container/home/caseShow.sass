@@ -1,0 +1,59 @@
+.caseShow
+  width: 100%
+  height: 660px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  align-items: center
+  background: url("../../../../public/static/img/AD0I5Z_5CRACGAAgnrao6AUoqe7H7QYw_g449AU.jpg.webp") no-repeat
+  background-size: 100% 100%
+
+  .caseShowLeft
+    width: 40%
+    height: 40%
+    display: flex
+    flex-direction: column
+    position: relative
+
+    span
+      font-size: 14px
+      color: #fff
+      line-height: 36px
+
+    .caseShowTitle
+      display: flex
+      flex-direction: column
+
+      span
+        margin-top: 10px
+
+      span:nth-child(1)
+        font-size: 24px
+
+    .moreBtn
+      width: 120px
+      height: 40px
+      text-decoration: none
+      position: relative
+      margin-top: 10px
+      border: 1px solid #fff
+      text-align: center
+      line-height: 40px
+      overflow: hidden
+      color: #fff
+
+      .cover
+        width: 0
+        height: 40px
+        background: #ffffff50
+        position: absolute
+        top: 0
+        left: 0
+        transition: width 1s
+    .moreBtn:hover>.cover
+      width: 120px
+
+  .caseShowRight
+    width: 40%
+    height: 50%
+
